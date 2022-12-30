@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
+    
+    
+    <title></title>
+</head>
+<body>
+    <div class="main-container">
+        <header class="nav-wrapper">
+            <div class="navbar">
+                <div class="nav-left">
+                    <span class="business-name">AKM Industries</span>
+                </div>
+                <div class="nav-right">
+                    <ul class="nav-holder">
+                        <li class="nav-item">
+                            <div class="item">
+                                <a href="#home">Home</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="item">
+                                <a href="#about-us">About us</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="item">
+                                <a href="#our-services">Our Services</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <div class="item">
+                                <a href="#contact-us">Contact Us</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main class="content-wrapper">
+            <section id="home" class="home-sec">
+                <div class="heading-wrapper">
+                    <div class="heading">
+                        <h2>
+                            <span>BUSINESS</span> <br>
+                            <span>LANDING</span> <br>
+                            <span>PAGE</span> 
+                        </h2>        
+                    </div>
+                    <div class="brand-img">
+                        <img src="./images/about-us.png" alt="engineer">
+                    </div>
+                </div>
+            </section>
+            <section id="about-us" class="about-us-sec">
+                <div class="about-us-wrapper">
+                    <div class="about-img">
+                        <img src="./images/engineer.jpeg" alt="work-img">
+                    </div>
+                    <div class="about-content">
+                        <h2>About us</h2>
+                        <p>
+                            We, flagship of the BSRR group, is the 2nd largest manufacturer of commercial vehicles in India, the 4th largest manufacturer of buses in the world, and the 19th largest manufacturers of trucks. Headquartered in Chennai, 9 manufacturing plants gives an international footprint – 7 in India, a bus manufacturing facility in Ras Al Khaimah (UAE), one at Leeds, United Kingdom and a joint venture with the Alteams Group for the manufacture of high-press die-casting extruded aluminum components for the automotive and telecommunications sectors, We have a well-diversified portfolio across the automobile industry. AKM Automotives has recently been ranked as 34th best brand in India.
+                        </p> <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, maxime laborum voluptatem similique sequi alias molestias officiis ullam natus aspernatur animi velit, hic, facilis ex.</p>
+                    </div>
+                </div>
+            </section>
+            <section id="our-services">
+                <h2>Our Services</h2>
+                <div class="services-holder">
+                    <div class="service">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit nobis magni voluptatibus atque soluta reiciendis dolore quae deleniti, consequuntur explicabo reprehenderit magnam quas illum autem.
+                        </p>
+                    </div>
+                    <div class="service">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro impedit autem nesciunt, quidem veritatis quas ducimus nostrum reprehenderit in doloribus ad quos ea sit cupiditate?
+                        </p>
+                    </div>
+                    <div class="service">
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab id nobis earum dolore temporibus ut minima alias fugit perferendis sunt odio recusandae dignissimos, ipsam beatae!
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="contact-us">
+            <div class="form-container">
+                <div class="contact-head">
+                    <h1>CONTACT US</h1>
+                </div>
+                <div class="form-div">
+                    <form action="">
+                        <div class="form-item">
+                            <input type="text" placeholder="First Name" id="fname" value="" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" placeholder="Last Name" id="lname" value="" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="email" name="" id="email" placeholder="Email Address" value="" required>
+                        </div>
+                        <div class="form-item">
+                            <input type="text" id="reason" placeholder="Reason for contacting" value="" required>
+                        </div>
+                        <input type="button" value="Submit" id="submit-btn" placeholder="Submit" onclick="submitForm()">
+                    </form>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
