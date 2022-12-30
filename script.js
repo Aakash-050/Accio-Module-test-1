@@ -4,12 +4,12 @@ function submitForm(){
     let email = document.getElementById('email').value;
     let reason = document.getElementById('reason').value;
     // console.log(fname, lname, email, reason);
-    
-if (fname!=null && lname!=null && email!=null && reason!=null) {
-    alert("Form Submitted Successfully!")
-}
+
+    if (fname.length > 0 && lname.length > 0 && email.length > 0 && reason.length > 0) {
+        alert("Form submitted successfully!");
+    }
 else{
-    alert("All fields are required!")
+    alert("All fields are required!");
 }
 
 }
